@@ -25,3 +25,6 @@ $dev-dashboard-theme: mat-light-theme((
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include angular-material-theme($dev-dashboard-theme);
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

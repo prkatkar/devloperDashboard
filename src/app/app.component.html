@@ -17,18 +17,20 @@
   </mat-toolbar>
 </p>
 
-<div  class="container"    >
+<div  class="container">
 <div color="accent">
   top content
 <button mat-button bgcolor="primary">Hello</button>
-</div>
-  
-    
-  <div class="leftpane">leftcontentdgdgdklgjkdljglkdjgldjgljdlfgjldj</div> 
-  <div classs="middlepane"> main glkjdlgjldjgldjgljdlkgjdljglkdjglkjdfljgldjgldjgljdflgjdsljgljlds</div>
-  <div class="rightpane"> right contentjkdlgdfkljgldjgldjlgjdljgldjgljdslgjlkdjglkds</div>
-  
-</div>
-
-
+<div class="row">
+  <div class="col-md-2">left side content </div> 
+  <!--<div class="col-md-8"> main content  with complete line fit the content of page end of line.make sure content should  reach to second line of code </div >-->
+  <div class="col-md-8">
 <router-outlet></router-outlet> 
+  </div>
+  <div class="col-md-2"> right side content</div>
+</div>
+</div>
+  
+  
+</div>
+
